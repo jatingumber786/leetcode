@@ -12,6 +12,15 @@
 
 ---
 
+# 🏆 LeetCode Stats
+
+<div align="center">
+
+<img src="https://leetcard.jacoblin.cool/p9YUl8QEir?theme=dark&font=Nunito&ext=heatmap" />
+
+</div>
+
+---
 <!---LeetCode Topics Start-->
 
 # 📚 LeetCode Topics
