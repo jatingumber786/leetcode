@@ -1,29 +1,3 @@
-## 📊 Languages Used
-
-![Top Language](https://img.shields.io/github/languages/top/jatingumber786/leetcode?style=for-the-badge)
-
-![Language Count](https://img.shields.io/github/languages/count/jatingumber786/leetcode?style=for-the-badge)
-
-![Repo Size](https://img.shields.io/github/repo-size/jatingumber786/leetcode?style=for-the-badge)
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jatingumber786&theme=github_dark" />
-</p>
-
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jatingumber786&theme=github_dark" />
-</p>
-
-
-
-
-
-
-
-
-
-
 # <div align="center">🚀 LeetCode Solutions</div>
 
 <div align="center">
@@ -156,6 +130,7 @@
 </details>
 
 <!---LeetCode Topics End-->
+
 
 ---
 
