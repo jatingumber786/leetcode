@@ -1,3 +1,29 @@
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jatingumber786&layout=donut&theme=tokyonight&langs_count=8&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jatingumber786&layout=compact&theme=tokyonight&langs_count=8&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jatingumber786&theme=github_dark" />
+</p>
+
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jatingumber786&theme=github_dark" />
+</p>
+
+
+
+
+
+
+
+
+
+
 # <div align="center">🚀 LeetCode Solutions</div>
 
 <div align="center">
