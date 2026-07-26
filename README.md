@@ -1,10 +1,10 @@
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jatingumber786&layout=donut&theme=tokyonight&langs_count=8&hide_border=true" />
-</p>
+## 📊 Languages Used
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jatingumber786&layout=compact&theme=tokyonight&langs_count=8&hide_border=true" />
-</p>
+![Top Language](https://img.shields.io/github/languages/top/jatingumber786/leetcode?style=for-the-badge)
+
+![Language Count](https://img.shields.io/github/languages/count/jatingumber786/leetcode?style=for-the-badge)
+
+![Repo Size](https://img.shields.io/github/repo-size/jatingumber786/leetcode?style=for-the-badge)
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jatingumber786&theme=github_dark" />
