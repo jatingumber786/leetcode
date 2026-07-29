@@ -1,7 +1,7 @@
 class Solution {
     public int subarraySum(int[] nums, int k) {
         int n = nums.length;
-        int count=0;
+        int count=0; //this is our first method
        // int sum =0;
         for(int i=0;i<n;i++){
             int sum=0;
