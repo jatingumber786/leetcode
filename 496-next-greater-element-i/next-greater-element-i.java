@@ -6,9 +6,8 @@ class Solution {
             while(!st.isEmpty() && st.peek()<=nums2[i]){
                 st.pop();
             }
-            if(st.isEmpty())  map.put(nums2[i],-1);
+            if(st.isEmpty()) map.put(nums2[i],-1);
             else map.put(nums2[i],st.peek());
-
             st.push(nums2[i]);
         }
         int ans[] = new int[nums1.length];
@@ -16,5 +15,6 @@ class Solution {
             ans[i] = map.get(nums1[i]);
         }
         return ans;
+        
     }
 }
