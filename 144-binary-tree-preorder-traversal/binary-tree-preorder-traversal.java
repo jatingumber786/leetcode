@@ -15,15 +15,14 @@
  */
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> arr = new ArrayList<>();
-        traverse(root,arr);
-        return arr;
+        List<Integer> list = new ArrayList<>();
+        helper(root,list);
+        return list;
     }
-    public void traverse(TreeNode root, List<Integer> arr){
-        if(root==null) return;
-        arr.add(root.val);
-        traverse(root.left,arr);
-        traverse(root.right,arr);
+    private void helper(TreeNode root,List<Integer> list){
+        if(root ==null) return;
+        list.add(root.val);
+        helper(root.left,list);
+        helper(root.right,list);        
     }
-
 }
