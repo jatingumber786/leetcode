@@ -1,14 +1,13 @@
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        rightview(root,list,0);
+        rightview(root,0,list);
         return list;
     }
-    private void rightview(TreeNode root,List<Integer> list,int currlevel){
+    private void rightview(TreeNode root,int currlevel,List<Integer> list){
         if(root==null) return;
-        if(currlevel==list.size())  list.add(root.val);
-        rightview(root.right,list,currlevel+1);
-        rightview(root.left,list,currlevel+1);
-
+        if(currlevel==list.size()) list.add(root.val);
+        rightview(root.right,currlevel+1,list);
+        rightview(root.left,currlevel+1,list);
     }
 }
