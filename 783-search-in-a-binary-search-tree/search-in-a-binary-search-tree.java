@@ -1,6 +1,7 @@
 class Solution {
     public TreeNode searchBST(TreeNode root, int val) {
-        TreeNode node = root;
+        TreeNode node = root;//eh mai aape chalaya bina code dekhe 
+        //yes jatin u can do it,,,......
         if(node==null) return null;
         if(val>node.val){ 
             //if(node.val==val) return root;
