@@ -1,19 +1,13 @@
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
-        List<Integer> pre = new ArrayList<>();
-         help(pre,root);
-         return pre.get(k-1);
-
+        List<Integer> inorder = new ArrayList<>();
+        help(inorder,k,root);   
+        return inorder.get(k-1);  
     }
-    private void  help(List<Integer> list , TreeNode root){
-
+    private void  help(List<Integer> in , int k,TreeNode root){
         if(root==null) return;
-        
-        ////if(count==k) return root.val;
-        
-        help(list,root.left);
-        list.add(root.val);
-        help(list,root.right);
-        //return -1;
+        help(in,k,root.left);
+        in.add(root.val);
+        help(in,k,root.right);
     }
 }
