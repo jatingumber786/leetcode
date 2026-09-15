@@ -4,7 +4,6 @@ class Solution {
         if(curr>p.val && curr>q.val) return lowestCommonAncestor(root.left,p,q);
         if(curr<p.val && curr<q.val) return lowestCommonAncestor(root.right,p,q);
         return root;
-        
 
         
     }
