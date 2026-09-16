@@ -7,7 +7,7 @@ class Solution {
         reverse(nums,k,n-1);        
     }
     private void reverse(int[]nums,int s,int e){
-        while(s<e){
+        while(s<=e){
             int temp = nums[s];
             nums[s] = nums[e];
             nums[e] = temp;
