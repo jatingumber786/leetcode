@@ -1,6 +1,6 @@
 class Solution {
     public void nextPermutation(int[] nums) {
-        int n = nums.length;
+        int n =nums.length;
         int pivot =-1;
         for(int i=n-2;i>=0;i--){
             if(nums[i]<nums[i+1]){
@@ -9,8 +9,8 @@ class Solution {
             }
         }
         if(pivot==-1){
-         reverse(nums,0,n-1);
-         return;
+            reverse(nums,0,n-1);
+            return;
         }
         for(int i=n-1;i>=0;i--){
             if(nums[pivot]<nums[i]){
@@ -20,18 +20,18 @@ class Solution {
         }
         reverse(nums,pivot+1,n-1);
     }
-    private void reverse(int[] nums,int l,int r){
-        while(l<r){
-            int temp = nums[l];
-            nums[l] = nums[r];
-            nums[r] = temp;
-            l++;
-            r--;
-        }
+    private void swap(int[]nums,int a,int b){
+        int temp = nums[a];
+        nums[a] = nums[b];
+        nums[b] =temp;
     }
-    private void swap(int[] nums , int l,int r){
-        int temp = nums[l];
-        nums[l] = nums[r];
-        nums[r] = temp;
+    private void reverse(int[] nums,int a ,int b){
+        while(a<b){
+        int temp = nums[a];
+        nums[a] = nums[b];
+        nums[b] =temp;
+        a++;
+        b--;
+        }
     }
 }
