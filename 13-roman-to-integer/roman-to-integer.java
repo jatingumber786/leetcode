@@ -15,8 +15,5 @@ class Solution {
             else result+=map.get(s.charAt(i));
         }
         return result+map.get(s.charAt(s.length()-1));
-        
-
-        
     }
 }
